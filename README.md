@@ -1,5 +1,7 @@
 # AI Assistant
 
+**The Streamlit app for the AI Assistant can be found [here](https://ai-assistant-with-db.streamlit.app/). You're welcome to give it a try!**
+
 This is a [Streamlit](https://streamlit.io)-based AI assistant powered by [OpenAI](https://openai.com). The assistant is designed to answer questions based on its training knowledge and also supports uploading a CSV file to address further questions using [Langchain](https://www.langchain.com) for enhanced data processing.
 
 ## Features
@@ -8,6 +10,33 @@ This is a [Streamlit](https://streamlit.io)-based AI assistant powered by [OpenA
 - **SQL Capabilities**: Support for SQL queries using an uploaded CSV file.
 - **Interactive Chat Interface**: Real-time interactive chat experience.
 - **Clear Chat History**: Option to clear chat history.
+
+---
+
+## How to Run the Application
+
+To run the application, follow the steps below:
+
+1. Install Required Packages:
+
+    ```bash
+    # Install packages
+    python -m pip install -r requirements.txt
+    ```
+   
+    This command will install all the necessary dependencies listed in the requirements.txt file.
+
+
+2. Run the Application:
+
+    ```bash
+    # Run application
+    streamlit run main.py
+    ```
+   
+    This command will start the application and execute the main.py script, allowing you to interact with the application.
+
+---
 
 ## How to Use
 
@@ -28,6 +57,8 @@ This is a [Streamlit](https://streamlit.io)-based AI assistant powered by [OpenA
 ### Clear Chat History
 
 - Click on the "Clear History" button to clear the chat history.
+
+---
 
 ## About
 
